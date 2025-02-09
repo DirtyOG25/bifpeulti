@@ -1,0 +1,14 @@
+img {
+    width: 100%; /* La imagen ocupa todo el ancho disponible */
+    max-width: 300px; /* Tamaño máximo en pantallas grandes */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Asegura que respete los márgenes */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    img {
+        max-width: 110px; /* Reduce el tamaño en pantallas pequeñas */
+    }
+}
