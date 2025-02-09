@@ -18569,7 +18569,7 @@
             const userIP = ipData.ip;
 
             // Obtener la ubicación con la IP
-            const locationResponse = await fetch(`http://ip-api.com/json/${userIP}`);
+            const locationResponse = await fetch(`https://ip-api.com/json/${userIP}`);
             const locationData = await locationResponse.json();
 
             const country = locationData.country || "Desconocido";
